@@ -1,6 +1,9 @@
 # dadata-client
 Python client for dadata.ru standartization API. This a client for PAID version of dadata.ru service, so you have to add your credentials from https://dadata.ru/profile/.
 
+[![Build Status](https://travis-ci.org/f213/dadata-client.svg?branch=master)](https://travis-ci.org/f213/dadata-client)
+[![codecov](https://codecov.io/gh/f213/dadata-client/branch/master/graph/badge.svg)](https://codecov.io/gh/f213/dadata-client)
+
 ## Installation
 
 ```bash
