@@ -117,3 +117,7 @@ decomposed = dadata.request('Магадан, ул. Бывших строител
   }
 """
 ```
+
+## Credits
+
+* [cryptomaniac512](http://github.com/cryptomaniac512)
