@@ -1,8 +1,11 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 from setuptools import find_packages, setup
 
 setup(
     name='dadata-client',
-    version='0.0.1',
+    version='0.1.0',
     description="Dadata.ru python client",
     keywords=[],
     url="https://github.com/f213/dadata-client/",

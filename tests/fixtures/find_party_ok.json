@@ -1,0 +1,157 @@
+{
+    "suggestions": [
+        {
+            "value": "ПАО СБЕРБАНК",
+            "unrestricted_value": "ПАО СБЕРБАНК",
+            "data": {
+                "kpp": "773601001",
+                "capital": {
+                    "type": "УСТАВНЫЙ КАПИТАЛ",
+                    "value": 67760844000
+                },
+                "management": {
+                    "name": "Греф Герман Оскарович",
+                    "post": "Президент, председатель правления"
+                },
+                "founders": [
+                    {
+                        "ogrn": null,
+                        "inn": "7702235133",
+                        "name": "ЦЕНТРАЛЬНЫЙ БАНК РОССИЙСКОЙ ФЕДЕРАЦИИ",
+                        "hid": "33b78a80c782d847d02a7e7a53d3aa17a5dff9a1cb5ec73d0311423dcc065a89",
+                        "type": "LEGAL",
+                        "share": null
+                    }
+                ],
+                "managers": [
+                    {
+                        "inn": "770303580308",
+                        "fio": {
+                            "surname": "Греф",
+                            "name": "Герман",
+                            "patronymic": "Оскарович",
+                            "gender": "MALE",
+                            "source": "ГРЕФ ГЕРМАН ОСКАРОВИЧ",
+                            "qc": null
+                        },
+                        "post": "Президент, председатель правления",
+                        "hid": "8aca73ef155e20b8ba6687d23521630e8fbe9b505b388cb9cb12eb1c43b68253",
+                        "type": "EMPLOYEE"
+                    }
+                ],
+                "branch_type": "MAIN",
+                "branch_count": 93,
+                "source": null,
+                "qc": null,
+                "hid": "145a83ab38c9ad95889a7b894ce57a97cf6f6d5f42932a71331ff18606edecc6",
+                "type": "LEGAL",
+                "state": {
+                    "status": "ACTIVE",
+                    "actuality_date": 1521590400000,
+                    "registration_date": 677376000000,
+                    "liquidation_date": null
+                },
+                "opf": {
+                    "type": "2014",
+                    "code": "12247",
+                    "full": "Публичное акционерное общество",
+                    "short": "ПАО"
+                },
+                "name": {
+                    "full_with_opf": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"СБЕРБАНК РОССИИ\"",
+                    "short_with_opf": "ПАО СБЕРБАНК",
+                    "latin": null,
+                    "full": "СБЕРБАНК РОССИИ",
+                    "short": "СБЕРБАНК"
+                },
+                "inn": "7707083893",
+                "ogrn": "1027700132195",
+                "okpo": null,
+                "okved": "64.19",
+                "okveds": [
+                    {
+                        "main": true,
+                        "type": "2014",
+                        "code": "64.19",
+                        "name": "Денежное посредничество прочее"
+                    }
+                ],
+                "authorities": {
+                    "fts_registration": {
+                        "type": "FEDERAL_TAX_SERVICE",
+                        "code": "7700",
+                        "name": "Управление Федеральной налоговой службы по г.Москве",
+                        "address": "125284, г.Москва, Хорошевское ш., 12А"
+                    },
+                    "fts_report": {
+                        "type": "FEDERAL_TAX_SERVICE",
+                        "code": "7736",
+                        "name": "Инспекция Федеральной налоговой службы № 36 по г.Москве",
+                        "address": null
+                    },
+                    "pf": {
+                        "type": "PENSION_FUND",
+                        "code": "087705",
+                        "name": "Государственное учреждение - Главное Управление Пенсионного фонда РФ №4 Управление №1 по г. Москве и Московской области муниципальный район Гагаринский г.Москвы",
+                        "address": null
+                    },
+                    "sif": {
+                        "type": "SOCIAL_INSURANCE_FUND",
+                        "code": "7706",
+                        "name": "Филиал №6 Государственного учреждения - Московского регионального отделения Фонда социального страхования Российской Федерации",
+                        "address": null
+                    }
+                },
+                "documents": {
+                    "fts_registration": {
+                        "type": "FTS_REGISTRATION",
+                        "series": "77",
+                        "number": "4856976",
+                        "issue_date": 1029456000000,
+                        "issue_authority": "7700"
+                    },
+                    "pf_registration": {
+                        "type": "PF_REGISTRATION",
+                        "series": null,
+                        "number": "087705007215",
+                        "issue_date": 1283472000000,
+                        "issue_authority": "087705"
+                    },
+                    "sif_registration": {
+                        "type": "SIF_REGISTRATION",
+                        "series": null,
+                        "number": "770600307277061",
+                        "issue_date": 978566400000,
+                        "issue_authority": "7706"
+                    }
+                },
+                "licenses": [
+                    {
+                        "series": null,
+                        "number": "045-02894-100000",
+                        "issue_date": 975283200000,
+                        "issue_authority": "Центральный банк Российской Федерации",
+                        "suspend_date": null,
+                        "suspend_authority": null,
+                        "valid_from": 1444089600000,
+                        "valid_to": null,
+                        "activities": [
+                            "Брокерская деятельность"
+                        ],
+                        "addresses": [
+                            "Г. МОСКВА"
+                        ]
+                    }
+                ],
+                "address": {
+                    "value": "г Москва, ул Вавилова, д 19",
+                    "unrestricted_value": "г Москва, Академический р-н, ул Вавилова, д 19"
+                },
+                "phones": null,
+                "emails": null,
+                "ogrn_date": 1029456000000,
+                "okved_type": "2014"
+            }
+        }
+    ]
+}
