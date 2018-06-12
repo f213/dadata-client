@@ -1,5 +1,5 @@
 # dadata-client
-Python clients for dadata.ru APIs. This library also contains clients for PAID version of dadata.ru service, so you may need to add your credentials from https://dadata.ru/profile/.
+Python client for dadata.ru APIs. Some parts of dadata.ru service are paid, so you may need to add your credentials from https://dadata.ru/profile/.
 
 [![Build Status](https://travis-ci.org/f213/dadata-client.svg?branch=master)](https://travis-ci.org/f213/dadata-client)
 [![codecov](https://codecov.io/gh/f213/dadata-client/branch/master/graph/badge.svg)](https://codecov.io/gh/f213/dadata-client)
@@ -122,7 +122,7 @@ decomposed = dadata.request('Магадан, ул. Бывших строител
 """
 ```
 
-### Find party client
+### Find organisation client
 
 ``` python
 from dadata.find_party import DadataFindPartyClient
