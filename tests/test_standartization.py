@@ -1,10 +1,25 @@
-import requests
-
 import pytest
+import requests
+import requests_mock
+
+from dadata.standartization import DadataAddressStandartizationClient
+
+
+@pytest.fixture
+def client():
+    client = DadataAddressStandartizationClient(key='h4xxx0r', secret='z3r0c001')
+    with requests_mock.Mocker() as http_mock:
+        client.http_mock = http_mock
+        yield client
+
+
+@pytest.fixture
+def response(read_fixture):
+    return read_fixture('standartization_ok')
 
 
 def test_ok(client, response):
-    client.http_mock.post('https://dadata.ru/api/v2/clean/address', json=response('ok'))
+    client.http_mock.post('https://dadata.ru/api/v2/clean/address', json=response)
 
     got = client.request('Magadan,  Former Communism builders street, 5')
 
@@ -16,7 +31,7 @@ def test_credentials(client, response):
         assert request.headers['Authorization'] == 'Token h4xxx0r'
         assert request.headers['X-Secret'] == 'z3r0c001'
 
-        return response('ok')
+        return response
 
     client.http_mock.post('https://dadata.ru/api/v2/clean/address', json=_test_credentials)
 
