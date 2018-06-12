@@ -1,0 +1,2 @@
+class DadataPaymentRequired(BaseException):
+    pass

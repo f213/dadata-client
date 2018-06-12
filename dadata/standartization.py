@@ -1,8 +1,5 @@
 import requests
-
-
-class DadataPaymentRequired(BaseException):
-    pass
+from dadata.exceptions import DadataPaymentRequired
 
 
 class DadataAddressStandartizationClient:

@@ -2,6 +2,7 @@ import pytest
 import requests
 import requests_mock
 
+from dadata.exceptions import DadataPaymentRequired
 from dadata.standartization import DadataAddressStandartizationClient
 
 
@@ -58,3 +59,10 @@ def test_empty_response(client):
     got = client.request('Magadan,  Former Communism builders street, 5')
 
     assert got is None
+
+
+def test_payment_required(client):
+    client.http_mock.post('https://dadata.ru/api/v2/clean/address', status_code=402)
+
+    with pytest.raises(DadataPaymentRequired):
+        client.request('Magadan,  Former Communism builders street, 5')
