@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 from dadata.base_client import DadataBaseClient
 
 
@@ -9,10 +12,11 @@ class DadataFindPartyClient(DadataBaseClient):
     def request(self, query):
         """Send request to find-party API and return result data if
         provided."""
-        return super().request({'query': query})
+        return super(DadataFindPartyClient, self).request({'query': query})
 
     def _prepare_response(self, respose):
         try:
-            return super()._prepare_response(respose)['suggestions'] or None
+            return super(DadataFindPartyClient, self) \
+                ._prepare_response(respose)['suggestions'] or None
         except (IndexError, KeyError, TypeError):
             return

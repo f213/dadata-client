@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 import requests
 
 from dadata.exceptions import DadataPaymentRequired
 
 
-class DadataBaseClient:
+class DadataBaseClient(object):
 
     API_URL = ''
 
