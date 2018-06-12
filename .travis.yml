@@ -9,7 +9,7 @@ python:
 
 script:
   - flake8
-  - py.test --cov=./
+  - py.test --cov=dadata
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
