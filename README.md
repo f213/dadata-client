@@ -3,6 +3,7 @@ Python client for dadata.ru APIs. Some parts of dadata.ru service are paid, so y
 
 [![Build Status](https://travis-ci.org/f213/dadata-client.svg?branch=master)](https://travis-ci.org/f213/dadata-client)
 [![codecov](https://codecov.io/gh/f213/dadata-client/branch/master/graph/badge.svg)](https://codecov.io/gh/f213/dadata-client)
+[![PyPI version](https://badge.fury.io/py/dadata-client.svg)](https://badge.fury.io/py/dadata-client)
 
 ## Installation
 
